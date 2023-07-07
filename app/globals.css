@@ -46,6 +46,7 @@ img {
 .errors {
   border: solid red 1px;
 }
+
 .error_message {
   color: red;
   font-weight: 300;
@@ -56,6 +57,7 @@ img {
 /* ==== Button Start==== */
 button {
   border: none;
+  background: transparent;
 }
 .main-btn {
   background: var(--mainColor);
