@@ -1,10 +1,9 @@
 :root {
   --mainColor: #141e5b;
-  --accentColor: #2b85fe;
+  --secColor: #0093cd;
   --black: #1c1b24;
   --lightGrey: #8d8d92;
-  --lightBlue: #5a5881;
-  --brightOrange: #ff6443;
+  --accentColor: #fdb12a;
   --lightOrange: #ff644314;
   --white: #fff;
   --fontSmall: 1.3rem;
