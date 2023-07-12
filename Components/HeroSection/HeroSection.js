@@ -1,28 +1,58 @@
+'use client';
+
 import React from 'react';
 import styles from './HeroSection.module.scss';
 import Image from 'next/image';
-import artisans from '../../public/assets/artisans.webp';
+import { heroData } from './HeroSectionData';
+import Slider from 'react-slick';
 
-function HeroSection() {
+const HeroSliders = ({ title, subtitle, imageUrl, bgUrl }) => {
   return (
     <section
+      style={{
+        background: `url('${bgUrl}') no-repeat`,
+        backgroundSize: 'cover',
+      }}
       className={`d-flex flex-column flex-lg-row justify-content-between align-items-center ${styles.hero}`}
     >
       <div className='col-12 col-lg-5'>
-        <h1> Life is short, and the world is wide</h1>
-        <p>
-          {' '}
-          To get the best of adventure you just need to leave and go where you
-          love We are waiting for you.{' '}
-        </p>
+        <h1 data-aos='fade-up'> {title}</h1>
+        <p>{subtitle}</p>
       </div>
-      <fgiure className='col-12 col-lg-6'>
+      <fgiure data-aos='zoom-in' className='col-12 col-lg-6'>
         <Image
           className='col-12'
-          src={artisans}
+          src={imageUrl}
           alt='Destiny travel pictures'
         />
       </fgiure>
+    </section>
+  );
+};
+
+function HeroSection() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 25000,
+  };
+
+  return (
+    <section>
+      <Slider className='' {...settings}>
+        {heroData.map(({ id, imageUrl, title, subtitle, bgUrl }) => (
+          <HeroSliders
+            key={id}
+            imageUrl={imageUrl}
+            title={title}
+            subtitle={subtitle}
+            bgUrl={bgUrl}
+          />
+        ))}
+      </Slider>
     </section>
   );
 }

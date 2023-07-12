@@ -6,7 +6,9 @@ import HeroSection from '@/Components/HeroSection/HeroSection';
 export default function Home() {
   return (
     <main className={`${styles.main} `}>
-      <HeroSection />
+      <section>
+        <HeroSection />
+      </section>
     </main>
   );
 }

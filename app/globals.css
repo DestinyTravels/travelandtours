@@ -41,10 +41,10 @@ img {
   width: 100%;
   height: 100%;
 }
-/*
+
 img:hover {
   transform: scale(1.1);
-} */
+}
 
 .errors {
   border: solid red 1px;
@@ -102,6 +102,25 @@ button {
   100% {
     transform: scale(1);
   }
+}
+
+.slick-prev::before,
+.slick-next::before {
+  z-index: 1000;
+  color: var(--mainColor);
+}
+
+.slick-prev {
+  left: 3%;
+  z-index: 1000;
+  border-radius: 50%;
+  background: var(--white);
+}
+.slick-next {
+  right: 5%;
+  z-index: 1000;
+  border-radius: 50%;
+  background: var(--white);
 }
 
 /* ==== Button End==== */
