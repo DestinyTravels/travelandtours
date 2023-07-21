@@ -56,6 +56,12 @@ img:hover {
   font-size: 14px;
   line-height: 20px;
 }
+.line {
+  background: var(--accentColor);
+  width: 20%;
+  height: 2px;
+  margin: 1em auto;
+}
 
 /* ==== Button Start==== */
 button {
@@ -63,10 +69,10 @@ button {
   background: transparent;
 }
 .main-btn {
-  background: var(--mainColor);
+  background: var(--accentColor);
   border-radius: 4px;
   padding: 0.3em 1em;
-  color: var(--white);
+  color: var(--mainColor);
   font-size: var(--fontMed);
   font-weight: 600;
 }
@@ -85,6 +91,10 @@ button {
   padding: 0.3em 1em;
   font-size: var(--fontSmall);
   font-weight: 600;
+}
+
+.main-btn:hover {
+  animation: whileTap 0.2s ease-in-out;
 }
 
 .btnScaleUp {

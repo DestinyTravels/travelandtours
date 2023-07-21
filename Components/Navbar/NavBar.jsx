@@ -29,21 +29,34 @@ function NavBar() {
   const NavLinks = [
     {
       explore: [
-        { name: 'Mint NFT', url: '/mintnft' },
-        { name: 'Ivory Savings', url: '/ivorysavings' },
+        { name: ' Work visas assistance ', url: '/workvisas' },
         {
-          name: 'Crypto Gift Card',
-
-          url: '/cryptocard',
+          name: 'Study visa assistance        ',
+          url: '/studentvisas',
         },
-        { name: ' NFC Saving Promo', url: '/nfcsaving' },
         {
-          name: 'Defi Calendar',
+          name: 'Permanent residents visas',
 
-          url: '/deficalendar',
+          url: '/permanentvisas',
         },
-        { name: 'Dox.me', url: '/doxme' },
-        { name: 'Music NFT', url: '/musicnft' },
+        {
+          name: ' Citizenship visas assistance',
+          url: '/citizenshipvisas',
+        },
+        {
+          name: 'Business visas assistance',
+
+          url: '/businessvisas',
+        },
+        { name: 'Tourist visa assistance', url: '/touristvisas' },
+        {
+          name: 'Flight tickets assistance.',
+          url: '/hotelticket',
+        },
+        {
+          name: 'Hotels and apartment reservation.        ',
+          url: '/hotelreservation',
+        },
       ],
     },
   ];
