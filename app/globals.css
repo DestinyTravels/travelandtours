@@ -141,12 +141,18 @@ h2 {
   font-size: var(--fontSuperBig);
   font-weight: 900;
 }
+
 h3 {
   font-size: var(--fontBig);
   font-weight: 500;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: var(--fontBig);
+    font-weight: 900;
+  }
+
   h3 {
     font-size: var(--fontMed);
     font-weight: 500;
