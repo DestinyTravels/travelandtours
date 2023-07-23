@@ -21,10 +21,10 @@ export default function WorkVisas() {
           <p>
             {' '}
             Experience the utmost convenience in travel booking with Destiny
-            Travel and Tours' Reservations & Sales of Local and International
-            Flight Tickets. As your trusted travel partner, we offer a seamless
-            booking process that ensures you secure the best flight deals,
-            whether it's for local or international travel.
+            Travel and Tours&apos; Reservations & Sales of Local and
+            International Flight Tickets. As your trusted travel partner, we
+            offer a seamless booking process that ensures you secure the best
+            flight deals, whether it&apos;s for local or international travel.
             <br /> <br />
             Our expert travel agents are skilled in finding flights that align
             perfectly with your preferences, budget, and schedule. We keep you
