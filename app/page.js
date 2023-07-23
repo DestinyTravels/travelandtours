@@ -96,7 +96,7 @@ export default function Home() {
             </p>
           </article>
           <aside className='mt-5'>
-            <h4 data-aos='fade-left'> Wy choose us</h4>
+            <h4 data-aos='fade-in'> Wy choose us</h4>
             <div className='line'></div>
             <ul className='d-flex flex-wrap justify-content-center'>
               <li data-aos='fade-down' className='col-12 col-lg-3'>
@@ -137,12 +137,13 @@ export default function Home() {
 
       <section className={`${styles.services}`}>
         <section>
-          <h4 data-aos='fade-left'> Our services </h4>
+          <h4 data-aos='fade-up'> Our services </h4>
           <div className='line'></div>
         </section>
         <section className='mt-5 d-flex flex-wrap container justify-content-between'>
           {servicesCard.map((card, idx) => (
             <article
+              data-aos='zoom-out'
               className={`${styles.serviceCard} d-flex flex-column justify-content-between mb-5  pb-5 `}
               key={idx}
             >

@@ -1,16 +1,17 @@
 .hero {
   padding: 2em 2em 0;
-  // background: var(--mainColor);
-  // background: url('../../public/assets/heroBg1.png') no-repeat;
-  // background-size: cover;
-  height: 90%;
-  // overflow-y: hidden;
+  height: 100%;
   text-align: center;
+  overflow: hidden;
 
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     color: var(--mainColor);
+  }
+  p {
+    font-size: 1rem;
+    line-height: 24px;
   }
 
   @media screen and (min-width: 800px) {

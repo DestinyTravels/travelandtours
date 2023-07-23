@@ -37,7 +37,7 @@ function HeroSection() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 25000,
+    autoplaySpeed: 5000,
   };
 
   return (
