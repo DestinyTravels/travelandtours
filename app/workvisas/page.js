@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './workvisa.module.scss';
 import Booking from '@/Components/Booking/Booking';
 
-import work from '../../public/assets/destinytravelworkvisas.jpeg';
+import work from '../../public/assets/destinytravelworkvisas.webp';
 import Image from 'next/image';
 
 export default function WorkVisas() {
@@ -13,7 +13,7 @@ export default function WorkVisas() {
         className={`${styles.workHero} d-flex justify-content-between align-items-center`}
       >
         <h2 className='col-11 col-md-6 mx-auto'>
-          Work visas Applications Assistance.
+          Work visas Applications Assistance
         </h2>
       </section>
       <article className=' d-flex flex-column flex-lg-row justify-content-between mt-5 '>
@@ -36,9 +36,9 @@ export default function WorkVisas() {
             stands out among the competition, significantly increasing your
             chances of obtaining the visa.
           </p>
-          <div className='col-12'>
+          <figure className='col-12'>
             <Image src={work} alt='' />
-          </div>
+          </figure>
           <button className='main-btn my-5'> Contact us</button>
         </section>
         <aside className='col-12 col-lg-4 container'>

@@ -94,7 +94,7 @@ function NavBar() {
                 <li>
                   <ul className={` ${styles.navItems}  d-flex flex-column `}>
                     <p onClick={handleExploreDropdown}>
-                      Explore <BsChevronDown className='icon' />
+                      Services <BsChevronDown className='icon' />
                     </p>
                     <li
                       className={` ${styles.dropdownLists} ${

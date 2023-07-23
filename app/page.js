@@ -109,10 +109,10 @@ export default function Home() {
 
               <li data-aos='fade-down' className='col-12 col-lg-3'>
                 <span>Personalized Assistance:</span> <br />
-                We understand that everyone's situation is unique. That's why we
-                offer personalized assistance tailored to your specific needs.
-                Our team will listen to your concerns, answer your questions,
-                and provide customized solutions.
+                We understand that everyone&apos;s situation is unique.
+                That&apos;s why we offer personalized assistance tailored to
+                your specific needs. Our team will listen to your concerns,
+                answer your questions, and provide customized solutions.
               </li>
 
               <li data-aos='fade-down' className='col-12 col-lg-3'>

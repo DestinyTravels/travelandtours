@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './workvisa.module.scss';
+import styles from './hotelreservation.module.scss';
 import Booking from '@/Components/Booking/Booking';
 
-import work from '../../public/assets/destinytravelworkvisas.jpeg';
+import work from '../../public/assets/destinytravelworkvisas.webp';
 import Image from 'next/image';
 
 export default function WorkVisas() {
@@ -20,25 +20,32 @@ export default function WorkVisas() {
         <section className='container mt-5 col-12 col-lg-7 '>
           <p>
             {' '}
-            Welcome to Destiny Travel and Tours, your trusted partner in
-            realizing your career aspirations abroad.
-            <br /> <br /> Our comprehensive Work Visa Applications Assistance
-            service is designed to make your international job opportunities a
-            reality. Navigating the intricacies of work visa applications can be
-            daunting, but with our expert guidance, you can rest assured that
-            every detail will be handled with precision. <br /> <br />
-            Our seasoned visa experts will walk you through the entire process,
-            starting with understanding your career goals and the specific
-            requirements of your chosen destination. We will meticulously assist
-            you in gathering all necessary documents, filling out forms
-            accurately, and meeting the eligibility criteria. With our
-            personalized approach, we ensure that your work visa application
-            stands out among the competition, significantly increasing your
-            chances of obtaining the visa.
+            Indulge in the ultimate comfort and luxury during your travels with
+            Destiny Travel and Tours&apos; Reservations and Booking of Local &
+            International Hotels and Apartments. Whether you seek a cozy
+            boutique hotel or a lavish apartment, our extensive network of
+            trusted partners ensures you find the perfect accommodation that
+            meets your needs and preferences.
+            <br /> <br />
+            Our travel experts work closely with you to understand your
+            preferences, budget, and location preferences. We handle all the
+            reservation and booking procedures, ensuring you have a seamless
+            check-in experience at your chosen accommodation.
+            <br /> <br />
+            Let Destiny Travel and Tours take care of your travel logistics,
+            leaving you free to focus on making unforgettable memories during
+            your stay. Trust us to ensure your accommodation exceeds your
+            expectations, making your journey truly extraordinary.
+            <br /> <br />
+            In conclusion, Destiny Travel and Tours is your premier partner for
+            visa application assistance and travel services. With our
+            personalized approach, expert guidance, and commitment to customer
+            satisfaction, we turn your travel dreams into reality, ensuring
+            every journey with us is unforgettable and stress-free.
           </p>
-          <div className='col-12'>
+          <figure className='col-12'>
             <Image src={work} alt='' />
-          </div>
+          </figure>
           <button className='main-btn my-5'> Contact us</button>
         </section>
         <aside className='col-12 col-lg-4 container'>

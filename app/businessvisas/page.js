@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './workvisa.module.scss';
+import styles from './businessvisa.module.scss';
 import Booking from '@/Components/Booking/Booking';
 
-import work from '../../public/assets/destinytravelworkvisas.jpeg';
+import work from '../../public/assets/destinytravelworkvisas.webp';
 import Image from 'next/image';
 
 export default function WorkVisas() {
@@ -20,25 +20,28 @@ export default function WorkVisas() {
         <section className='container mt-5 col-12 col-lg-7 '>
           <p>
             {' '}
-            Welcome to Destiny Travel and Tours, your trusted partner in
-            realizing your career aspirations abroad.
-            <br /> <br /> Our comprehensive Work Visa Applications Assistance
-            service is designed to make your international job opportunities a
-            reality. Navigating the intricacies of work visa applications can be
-            daunting, but with our expert guidance, you can rest assured that
-            every detail will be handled with precision. <br /> <br />
-            Our seasoned visa experts will walk you through the entire process,
-            starting with understanding your career goals and the specific
-            requirements of your chosen destination. We will meticulously assist
-            you in gathering all necessary documents, filling out forms
-            accurately, and meeting the eligibility criteria. With our
-            personalized approach, we ensure that your work visa application
-            stands out among the competition, significantly increasing your
-            chances of obtaining the visa.
+            Unlock global business opportunities with Destiny Travel and
+            Tours&apos; Business Visas Application Assistance. Whether
+            you&apos;re exploring investment prospects, attending international
+            conferences, or initiating partnerships, we are your trusted partner
+            for seamless business visa processing.
+            <br /> <br />
+            Our experienced team comprehends the criticality of time in the
+            business world, and we go the extra mile to ensure your visa
+            application is expedited without compromising quality. We provide
+            personalized guidance, assisting you in selecting the right visa
+            category and preparing business-related documentation.
+            <br /> <br />
+            Destiny Travel and Tours&apos; exceptional networking with embassies
+            and consulates enables us to stay updated on the latest visa
+            regulations, ensuring your application aligns perfectly with the
+            specific country&apos;s requirements. Trust us to facilitate your
+            business endeavors globally, so you can focus on expanding your
+            horizons with confidence.
           </p>
-          <div className='col-12'>
+          <figure className='col-12'>
             <Image src={work} alt='' />
-          </div>
+          </figure>
           <button className='main-btn my-5'> Contact us</button>
         </section>
         <aside className='col-12 col-lg-4 container'>

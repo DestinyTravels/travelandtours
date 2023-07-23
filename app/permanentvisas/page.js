@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './workvisa.module.scss';
+import styles from './permanentvisa.module.scss';
 import Booking from '@/Components/Booking/Booking';
 
-import work from '../../public/assets/destinytravelworkvisas.jpeg';
+import work from '../../public/assets/destinytravelpermanent.webp';
 import Image from 'next/image';
 
 export default function PermanentVisas() {
@@ -20,25 +20,25 @@ export default function PermanentVisas() {
         <section className='container mt-5 col-12 col-lg-7 '>
           <p>
             {' '}
-            Welcome to Destiny Travel and Tours, your trusted partner in
-            realizing your career aspirations abroad.
-            <br /> <br /> Our comprehensive Work Visa Applications Assistance
-            service is designed to make your international job opportunities a
-            reality. Navigating the intricacies of work visa applications can be
-            daunting, but with our expert guidance, you can rest assured that
-            every detail will be handled with precision. <br /> <br />
-            Our seasoned visa experts will walk you through the entire process,
-            starting with understanding your career goals and the specific
-            requirements of your chosen destination. We will meticulously assist
-            you in gathering all necessary documents, filling out forms
-            accurately, and meeting the eligibility criteria. With our
-            personalized approach, we ensure that your work visa application
-            stands out among the competition, significantly increasing your
-            chances of obtaining the visa.
+            At Destiny Travel and Tours, we understand the desire to make a new
+            country your permanent home. Our Permanent Residents Visas
+            Applications Assistance is tailored to provide you with
+            comprehensive support throughout the process.
+            <br /> <br />
+            From evaluating eligibility criteria to preparing a thorough
+            application package, our team ensures that your permanent residency
+            application is complete and compelling. We stay up-to-date with the
+            latest immigration policies, giving you the best chance of a
+            successful outcome.
+            <br /> <br />
+            With our personalized approach and attention to detail, we ease the
+            complexities of the application process, so you can focus on
+            building a future in your chosen country. Trust Destiny Travel and
+            Tours to guide you on your journey to becoming a permanent resident.
           </p>
-          <div className='col-12'>
+          <figure className='col-12'>
             <Image src={work} alt='' />
-          </div>
+          </figure>
           <button className='main-btn my-5'> Contact us</button>
         </section>
         <aside className='col-12 col-lg-4 container'>

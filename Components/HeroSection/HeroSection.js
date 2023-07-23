@@ -17,15 +17,15 @@ const HeroSliders = ({ title, subtitle, imageUrl, bgUrl }) => {
     >
       <div className='col-12 col-lg-5'>
         <h1 data-aos='fade-up'> {title}</h1>
-        <p>{subtitle}</p>
+        <p data-aos='fade-up'>{subtitle}</p>
       </div>
-      <fgiure data-aos='zoom-in' className='col-12 col-lg-6'>
+      <figure data-aos='zoom-in' className='col-12 col-lg-6'>
         <Image
           className='col-12'
           src={imageUrl}
           alt='Destiny travel pictures'
         />
-      </fgiure>
+      </figure>
     </section>
   );
 };

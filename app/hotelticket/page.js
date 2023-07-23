@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './workvisa.module.scss';
+import styles from './hotelticket.module.scss';
 import Booking from '@/Components/Booking/Booking';
 
-import work from '../../public/assets/destinytravelworkvisas.jpeg';
+import work from '../../public/assets/destinytravelworkvisas.webp';
 import Image from 'next/image';
 
 export default function WorkVisas() {
@@ -20,25 +20,25 @@ export default function WorkVisas() {
         <section className='container mt-5 col-12 col-lg-7 '>
           <p>
             {' '}
-            Welcome to Destiny Travel and Tours, your trusted partner in
-            realizing your career aspirations abroad.
-            <br /> <br /> Our comprehensive Work Visa Applications Assistance
-            service is designed to make your international job opportunities a
-            reality. Navigating the intricacies of work visa applications can be
-            daunting, but with our expert guidance, you can rest assured that
-            every detail will be handled with precision. <br /> <br />
-            Our seasoned visa experts will walk you through the entire process,
-            starting with understanding your career goals and the specific
-            requirements of your chosen destination. We will meticulously assist
-            you in gathering all necessary documents, filling out forms
-            accurately, and meeting the eligibility criteria. With our
-            personalized approach, we ensure that your work visa application
-            stands out among the competition, significantly increasing your
-            chances of obtaining the visa.
+            Experience the utmost convenience in travel booking with Destiny
+            Travel and Tours' Reservations & Sales of Local and International
+            Flight Tickets. As your trusted travel partner, we offer a seamless
+            booking process that ensures you secure the best flight deals,
+            whether it's for local or international travel.
+            <br /> <br />
+            Our expert travel agents are skilled in finding flights that align
+            perfectly with your preferences, budget, and schedule. We keep you
+            informed about exclusive offers, discounts, and seat availability,
+            enabling you to make informed decisions for your upcoming journeys.
+            <br /> <br />
+            At Destiny Travel and Tours, we understand that the perfect flight
+            is an essential element of a successful trip. Trust us to make your
+            flight reservations, so you can focus on the exciting adventures
+            that await you.
           </p>
-          <div className='col-12'>
+          <figure className='col-12'>
             <Image src={work} alt='' />
-          </div>
+          </figure>
           <button className='main-btn my-5'> Contact us</button>
         </section>
         <aside className='col-12 col-lg-4 container'>

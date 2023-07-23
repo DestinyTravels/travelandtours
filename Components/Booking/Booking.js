@@ -64,8 +64,8 @@ function Booking() {
             required
           />
           <select required className='form-control mb-3'>
-            {service.map(({ name }) => (
-              <option> {name} </option>
+            {service.map(({ idx, name }) => (
+              <option key={idx}> {name} </option>
             ))}
           </select>
           <textarea
@@ -73,7 +73,7 @@ function Booking() {
             id='booking-message'
             cols='30'
             rows='10'
-            class='form-control mb-3'
+            className='form-control mb-3'
             placeholder='Message *'
             required
           ></textarea>
