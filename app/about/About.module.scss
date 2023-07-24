@@ -1,0 +1,61 @@
+.about {
+  h3 {
+    font-weight: 700;
+    color: var(--mainColor);
+    font-size: var(--fontMed);
+  }
+
+  .globalHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background: var(--mainColor) url('../../public/assets/about.webp') center
+      center no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 2em 1.5em;
+
+    .globalHeroTitle {
+      width: 100%;
+      text-align: center;
+      color: var(--white);
+      h2 {
+        font-size: clamp(var(--fontBig), 10vw, var(--fontSuperBig));
+        font-weight: 600;
+      }
+    }
+
+    @media screen and (min-width: 900px) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5em 2em;
+    }
+  }
+
+  .whoWeAre {
+    padding: 5em 2em;
+
+    .whoTitle {
+      text-align: center;
+    }
+  }
+
+  .vision {
+    text-align: center;
+
+    li {
+      margin: 1em 0;
+    }
+
+    @media screen and (min-width: 900px) {
+      text-align: start;
+    }
+  }
+  .checkMark {
+    margin-right: 0.5em;
+  }
+}

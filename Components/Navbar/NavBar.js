@@ -61,8 +61,6 @@ function NavBar() {
     },
   ];
 
-  // console.log(NavLinks[0].explore);
-
   return (
     <div>
       <section className={styles.navContainer}>
@@ -87,7 +85,7 @@ function NavBar() {
                 className={`${styles.navUl} col-12 col-lg-7 d-flex flex-column flex-lg-row justify-content-between`}
               >
                 {/* explore */}
-                <li className={` ${styles.navItems} `}>
+                <li onClick={handleNav} className={` ${styles.navItems} `}>
                   {' '}
                   <Link href='/'> Home </Link>
                 </li>
@@ -117,13 +115,16 @@ function NavBar() {
                   </ul>
                 </li>
 
-                <li className={` ${styles.navItems} `}>
+                <li onClick={handleNav} className={` ${styles.navItems} `}>
                   {' '}
-                  <Link href='/'> About us </Link>
+                  <Link href='/about'> About us </Link>
                 </li>
                 <li className={` ${styles.navItems} `}>
                   {' '}
-                  <Link href='/'> Contact us </Link>
+                  <Link onClick={handleNav} href='/contact'>
+                    {' '}
+                    Contact us{' '}
+                  </Link>
                 </li>
               </ul>
             </aside>
