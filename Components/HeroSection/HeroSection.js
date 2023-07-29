@@ -42,7 +42,7 @@ function HeroSection() {
 
   return (
     <section>
-      <Slider className='' {...settings}>
+      <Slider className='HomeHero' {...settings}>
         {heroData.map(({ id, imageUrl, title, subtitle, bgUrl }) => (
           <HeroSliders
             key={id}

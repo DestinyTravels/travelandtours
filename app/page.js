@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styles from './page.module.scss';
 import { FaFly, FaHotel } from 'react-icons/fa';
 import { BiBookReader } from 'react-icons/bi';
@@ -11,6 +10,9 @@ import {
 
 import HeroSection from '@/Components/HeroSection/HeroSection';
 import Link from 'next/link';
+import HotOffers from '@/Components/HotOffers/HotOffers';
+import Reviews from '@/Components/reviews/Reviews';
+import Places from '@/Components/Places/Places';
 
 export default function Home() {
   const servicesCard = [
@@ -136,8 +138,8 @@ export default function Home() {
       </section>
 
       <section className={`${styles.services}`}>
-        <section>
-          <h4 data-aos='fade-up'> Our services </h4>
+        <section data-aos='fade-up' className='section-title'>
+          <h3> Our services </h3>
           <div className='line'></div>
         </section>
         <section className='mt-5 d-flex flex-wrap container justify-content-between'>
@@ -153,7 +155,7 @@ export default function Home() {
                 <span className={`${styles.Icon}`}>
                   {card.icon ? card.icon : ''}{' '}
                 </span>
-                <h3> {card.title}</h3>
+                <h4> {card.title}</h4>
               </div>
 
               <div className={`${styles.cardDescription}`}>
@@ -170,6 +172,40 @@ export default function Home() {
             </article>
           ))}
         </section>
+      </section>
+
+      <section data-aos='zoom-in' className={styles.hotOffers}>
+        <section data-aos='fade-up' className='text-center section-title'>
+          <h3> Hot Offers </h3>
+          <div className='line'></div>
+        </section>
+        <HotOffers />
+      </section>
+
+      <section
+        data-aos='zoom-in'
+        className={`${styles.reviewsContainer} container`}
+      >
+        <section data-aos='fade-up' className='text-center section-title'>
+          <h3> What our satisfied client says </h3>
+          <div className='line'></div>
+        </section>
+        <Reviews />
+      </section>
+
+      <section className={`${styles.reviewsContainer} container`}>
+        <section data-aos='fade-up' className='text-center section-title'>
+          <h3> Most Popular Destinations </h3>
+          <div className='line'></div>
+          <p>
+            {' '}
+            Our popular destinations include United Kingdom, France, Australia,
+            Switzerland, Spain, Italy (and other Schengen States), Brazil
+            Argentina and Canada. We can also package other destination of
+            choice to meet your specific needs.
+          </p>
+        </section>
+        <Places />
       </section>
     </main>
   );

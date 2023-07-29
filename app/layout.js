@@ -1,11 +1,18 @@
 import './globals.css';
-import { Outfit } from 'next/font/google';
 import NavBar from '@/Components/Navbar/NavBar';
 import Footer from '@/Components/Footer/Footer';
 import AOSAnimation from '@/utils/AosInit';
 
-const outfit = Outfit({ subsets: ['latin'] });
+import localFont from 'next/font/local';
+// import Footer from "@/components/footer/Footer";
 
+const Outfit = localFont({
+  src: [
+    {
+      path: '../public/Fonts/Outfit-VariableFont_wght.ttf',
+    },
+  ],
+});
 export const metadata = {
   title: 'Destiny Travels and Tours',
   description:
@@ -17,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={outfit.className}>
+      <body className={Outfit.className}>
         <NavBar />
         <AOSAnimation>{children}</AOSAnimation>
         <Footer />
