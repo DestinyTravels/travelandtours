@@ -33,8 +33,8 @@ function About() {
             privilege of sending thousands of travelers to their desired
             destinations every year. Our partnerships with reputable airlines
             enable us to provide you with a wide range of flight options and
-            competitive prices. Whether you're flying to a local hotspot or
-            exploring a faraway paradise, we've got you covered.
+            competitive prices. Whether you&apos;re flying to a local hotspot or
+            exploring a faraway paradise, we&apos;ve got you covered.
           </p>
         </div>
 
