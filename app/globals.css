@@ -8,7 +8,7 @@
   --white: #fff;
   --fontSmall: 1.3rem;
   --fontMed: 1.75rem;
-  --fontBig: 3.25rem;
+  --fontBig: 3rem;
   --fontSuperBig: 4.5rem;
 }
 
@@ -134,7 +134,8 @@ button {
   border-radius: 50%;
   background: var(--white);
 }
-
+.OfferSlider .slick-prev,
+.OfferSlider .slick-next,
 .placesSlider .slick-prev,
 .placesSlider.slick-next,
 .reviewsSlider .slick-prev,

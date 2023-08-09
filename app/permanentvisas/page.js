@@ -4,6 +4,7 @@ import Booking from '@/Components/Booking/Booking';
 
 import work from '../../public/assets/destinytravelpermanent.webp';
 import Image from 'next/image';
+import OffersSlde from '@/Components/HotOffers/OffersSlde';
 
 export default function PermanentVisas() {
   return (
@@ -45,6 +46,7 @@ export default function PermanentVisas() {
           <Booking />
         </aside>
       </article>
+      <OffersSlde />
     </main>
   );
 }

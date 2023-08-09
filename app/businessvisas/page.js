@@ -4,8 +4,9 @@ import Booking from '@/Components/Booking/Booking';
 
 import work from '../../public/assets/destinytravelworkvisas.webp';
 import Image from 'next/image';
+import OffersSlde from '@/Components/HotOffers/OffersSlde';
 
-export default function WorkVisas() {
+export default function BusinessVisas() {
   return (
     <main className={`${styles.workVisas} `}>
       {' '}
@@ -48,6 +49,7 @@ export default function WorkVisas() {
           <Booking />
         </aside>
       </article>
+      <OffersSlde />
     </main>
   );
 }

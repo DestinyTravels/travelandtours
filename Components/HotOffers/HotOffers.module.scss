@@ -23,3 +23,28 @@
     }
   }
 }
+
+.OfferSlide {
+  background: var(--mainColor) url('/assets/australia.webp') center center
+    no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  padding: 5em 0;
+  h3 {
+    color: var(--white);
+  }
+
+  .OfferCard {
+    section {
+      border: solid 1px var(--mainColor);
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      p {
+        font-size: 1rem;
+      }
+    }
+    // background: var(--white);
+  }
+}
