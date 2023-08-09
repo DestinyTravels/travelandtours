@@ -10,7 +10,7 @@ function Reviews() {
   const reviews = [
     {
       id: 1,
-      name: 'Fakule',
+      name: 'Fakunle',
       job: 'Optical Doctor ',
       comment:
         '“Best travel agency in Nigeria. Trusted and reliable. I got my canada study visa within 48hrs after payment.” ',
@@ -38,7 +38,7 @@ function Reviews() {
     },
     {
       id: 5,
-      name: 'Adegoke',
+      name: 'Buhari',
       job: 'Fire fighter',
       comment:
         '“Most reliable travel agency in Nigeria. Trusted and honest. I got my shengen visa within 48hrs after payment.”',

@@ -1,0 +1,27 @@
+.australia {
+  .deets {
+    p {
+      font-weight: 300;
+    }
+    ul {
+      li {
+        color: var(--lightGrey);
+        margin-bottom: 1em;
+      }
+      h4 {
+        color: var(--secColor);
+      }
+
+      strong {
+        color: #2c2c2c;
+      }
+    }
+
+    .requirements {
+      li {
+        list-style-type: disc;
+        margin-left: 1em;
+      }
+    }
+  }
+}

@@ -23,3 +23,32 @@
     }
   }
 }
+
+.globalHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+  background-blend-mode: overlay;
+
+  padding: 2em 1.5em;
+
+  .globalHeroTitle {
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    h2 {
+      font-size: clamp(var(--fontBig), 10vw, var(--fontSuperBig));
+      font-weight: 600;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5em 2em;
+  }
+}
