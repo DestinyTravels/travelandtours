@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.scss';
-import Logo from '../../public/assets/DestinyLogo.png';
+import Logo from '../../public/assets/DestinyLogoFooter.png';
 
 import { BiCopyright } from 'react-icons/bi';
 import Link from 'next/link';

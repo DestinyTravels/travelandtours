@@ -59,7 +59,7 @@ export default function Home() {
       url: '/touristvisas',
     },
     {
-      title: 'Reservations & Sales of local and international flight tickets.',
+      title: 'Reservation & Sales of local and international flight tickets.',
       url: '/hotelticket',
       description:
         'Make your travel experience truly exceptional with our convenient hotel and apartment reservation services. Our team works closely with a wide network of trusted partners worldwide to offer you a range of accommodation options that suit your preferences and budget. Rest assured that we will find the perfect place to stay, ensuring your trip is comfortable and memorable.',
@@ -67,10 +67,10 @@ export default function Home() {
     },
     {
       title:
-        'Resvations And booking of local & international hotels and apartment.',
+        'Resvation And booking of local & international hotels and apartment.',
       url: '/hotelreservation',
       description:
-        "At Expert Visa Solutions, we offer a one-stop solution for all your flight reservation needs. Our experienced travel agents will assist you in finding the best flight options tailored to your preferences and budget. Whether it's a domestic trip or an international adventure, we ensure your journey begins with convenience and comfort.",
+        "We offer a one-stop solution for all your flight reservation needs. Our experienced travel agents will assist you in finding the best flight options tailored to your preferences and budget. Whether it's a domestic trip or an international adventure, we ensure your journey begins with convenience and comfort.",
       icon: <FaHotel />,
     },
   ];

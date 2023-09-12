@@ -9,7 +9,7 @@ function About() {
       className={`${styles.about} d-flex flex-column justify-content-center `}
     >
       {/* Hero section */}
-      <Herosection styles={styles} title=' About Destiny E Travels and Tours' />
+      <Herosection styles={styles} title=' About Destiny Travels and Tours' />
 
       {/* Who we are section */}
       <section className={`d-flex flex-column container ${styles.whoWeAre}`}>

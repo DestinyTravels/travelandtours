@@ -5,6 +5,7 @@ import Booking from '@/Components/Booking/Booking';
 import work from '../../public/assets/destinytravelpermanent.webp';
 import Image from 'next/image';
 import OffersSlde from '@/Components/HotOffers/OffersSlde';
+import Link from 'next/link';
 
 export default function PermanentVisas() {
   return (
@@ -40,7 +41,10 @@ export default function PermanentVisas() {
           <figure className='col-12'>
             <Image src={work} alt='' />
           </figure>
-          <button className='main-btn my-5'> Contact us</button>
+          <Link href='/contact' className='main-btn my-5'>
+            {' '}
+            Contact us
+          </Link>
         </section>
         <aside className='col-12 col-lg-4 container'>
           <Booking />
