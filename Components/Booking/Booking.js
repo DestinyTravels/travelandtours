@@ -1,9 +1,22 @@
+'use client';
+
 import React from 'react';
 import styles from './Booking.module.scss';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
+import { useForm, ValidationError } from '@formspree/react';
 
 function Booking() {
+  const [state, handleSubmit] = useForm('mwkdqkbd');
+  if (state.succeeded) {
+    return (
+      <p>
+        Thank you for Booking our services, We will reach out to you via your
+        email
+      </p>
+    );
+  }
+
   const service = [
     { name: ' Work visas assistance ', url: '/workvisas' },
     {
@@ -38,48 +51,77 @@ function Booking() {
     <main className='mb-5'>
       <section className='border  py-5 px-3 mb-5'>
         <h3>Book a service</h3>
-        <form>
+        <form onSubmit={handleSubmit}>
           <input
+            id='Name'
+            name='Name'
             type='text'
             placeholder='Your name'
             className='form-control mb-3'
             required
           />
+          <ValidationError prefix='Name' field='name' errors={state.errors} />
           <input
+            id='Email'
+            name='Email'
             type='email'
             placeholder='Your email'
             className='form-control mb-3'
             required
           />
+          <ValidationError prefix='Email' field='email' errors={state.errors} />
           <input
+            id='Number'
+            name='Number'
             type='number'
             placeholder='Your number'
             className='form-control mb-3'
             required
           />
+          <ValidationError
+            prefix='Number'
+            field='number'
+            errors={state.errors}
+          />
           <input
+            id='Date'
+            name='Date'
             type='date'
             placeholder='Your number'
             className='form-control mb-3'
             required
           />
-          <select required className='form-control mb-3'>
-            {service.map(({ idx, name }) => (
-              <option key={idx}> {name} </option>
+          <ValidationError prefix='Date' field='date' errors={state.errors} />
+          <select
+            required
+            className='form-control mb-3'
+            id='Service'
+            name='Service'
+          >
+            {service.map(({ name }) => (
+              <option key={name}> {name} </option>
             ))}
           </select>
           <textarea
             name='messgae'
-            id='booking-message'
+            id='message'
             cols='30'
             rows='10'
             className='form-control mb-3'
             placeholder='Message *'
             required
           ></textarea>
-
+          <ValidationError
+            prefix='Message'
+            field='message'
+            errors={state.errors}
+          />
           <div className='col-12'>
-            <button type='submit' className='main-btn mt-3 col-12'>
+            <button
+              type='submit'
+              className='main-btn mt-3 col-12'
+              disabled={state.submitting}
+            >
               BOOK NOW
             </button>
           </div>

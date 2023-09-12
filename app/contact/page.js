@@ -1,8 +1,9 @@
 import React from 'react';
-import { BsHouse, BsPhone, BsSend } from 'react-icons/bs';
+import { BsHouse, BsPhone } from 'react-icons/bs';
 import styles from './Contact.module.scss';
 import Herosection from '@/Components/HeroSection/GlobalHero';
 import { FiMail } from 'react-icons/fi';
+import ContactForm from '@/Components/ContactForm/ContactForm';
 
 function Contact() {
   return (
@@ -58,42 +59,7 @@ function Contact() {
           <h3 className='mb-5'>
             Send us a message and we will get back to you
           </h3>
-          <form>
-            <input
-              type='text'
-              placeholder='Your name'
-              className='form-control mb-3'
-              required
-            />
-            <input
-              type='email'
-              placeholder='Your email'
-              className='form-control mb-3'
-              required
-            />
-            <input
-              type='number'
-              placeholder='Your number'
-              className='form-control mb-3'
-              required
-            />
-
-            <textarea
-              name='messgae'
-              id='booking-message'
-              cols='10'
-              rows='5'
-              className='form-control mb-3'
-              placeholder='Message *'
-              required
-            ></textarea>
-
-            <div className='col-12'>
-              <button type='submit' className='main-btn mt-3 col-12'>
-                <BsSend /> SUBMIT
-              </button>
-            </div>
-          </form>{' '}
+          <ContactForm />
         </aside>
       </section>
     </main>
