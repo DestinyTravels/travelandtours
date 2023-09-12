@@ -82,7 +82,7 @@ function NavBar() {
             <aside className='col-12  d-flex flex-column flex-lg-row justify-content-lg-end '>
               {/* nav Links */}
               <ul
-                className={`${styles.navUl} col-12 col-lg-7 d-flex flex-column flex-lg-row justify-content-between`}
+                className={`${styles.navUl} col-12 col-lg-8 d-flex flex-column flex-lg-row justify-content-between`}
               >
                 {/* explore */}
                 <li onClick={handleNav} className={` ${styles.navItems} `}>
@@ -115,6 +115,10 @@ function NavBar() {
                   </ul>
                 </li>
 
+                <li onClick={handleNav} className={` ${styles.navItems} `}>
+                  {' '}
+                  <Link href='#Testimonials'> Testimonials </Link>
+                </li>
                 <li onClick={handleNav} className={` ${styles.navItems} `}>
                   {' '}
                   <Link href='/about'> About us </Link>

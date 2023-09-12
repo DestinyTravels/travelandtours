@@ -185,6 +185,7 @@ export default function Home() {
       <section
         data-aos='zoom-in'
         className={`${styles.reviewsContainer} container`}
+        id='Testimonials'
       >
         <section data-aos='fade-up' className='text-center section-title'>
           <h3> What our satisfied client says </h3>

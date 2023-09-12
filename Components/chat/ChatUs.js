@@ -5,7 +5,7 @@ import Link from 'next/link';
 function ChatUs() {
   return (
     <div className={styles.chatus}>
-      <Link href='https://wa.me/+2348095342136'>
+      <Link href='https://wa.me/+2349133214070'>
         <h4 className='d-flex flex-row justify-content-between align-items-center'>
           <span>
             {' '}
