@@ -20,14 +20,15 @@ function Footer() {
             <Image
               className='col-12 col-md-5'
               src={Logo}
-              alt=' Destiny Travels and tours Logo'
+              alt=' Destiny E Travels and Tours
+ Logo'
             />{' '}
           </figure>
           <div>
             {' '}
             <p>
               {' '}
-              We offers comprehensive assistance with work visas, study visas,
+              We offer comprehensive assistance with work visas, study visas,
               permanent residency, citizenship, business visas, and tourist
               visas.
             </p>{' '}

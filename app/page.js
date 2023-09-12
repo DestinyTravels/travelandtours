@@ -86,7 +86,7 @@ export default function Home() {
           <article data-aos='zoom-out' className=''>
             <p>
               {' '}
-              Welcome to <strong>Destiny Travel and Tours, </strong> your
+              Welcome to <strong>Destiny E Travels and Tours, </strong> your
               trusted partner for visa application assistance and travel
               services. We specialize in helping individuals and businesses
               navigate the complexities of visa applications, providing expert

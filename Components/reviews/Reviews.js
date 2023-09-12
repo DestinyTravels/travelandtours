@@ -27,14 +27,14 @@ function Reviews() {
       name: 'Abubarkar',
       job: 'Fire fighter',
       comment:
-        'They are truthful and honest, my brother got his France visa through Destiny travels and tours. ',
+        'They are truthful and honest, my brother got his France visa through Destiny E Travels and Tours.',
     },
     {
       id: 4,
       name: 'Adegoke',
       job: 'Fire fighter',
       comment:
-        'Customer friendly and reliable, my sister got her Ghana admission and visa through Destiny travels and tours. ',
+        'Customer friendly and reliable, my sister got her Ghana admission and visa through Destiny E Travels and Tours',
     },
     {
       id: 5,

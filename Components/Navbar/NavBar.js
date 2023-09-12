@@ -71,7 +71,11 @@ function NavBar() {
             className={`col-8 col-md-3 d-flex flex-row align-items-center ${styles.logo}`}
           >
             <figure className='col-6'>
-              <Image src={Logo} alt=' Destiny Travels and tours Logo' />
+              <Image
+                src={Logo}
+                alt=' Destiny E Travels and Tours
+ Logo'
+              />
             </figure>
           </Link>
           <div
@@ -115,10 +119,10 @@ function NavBar() {
                   </ul>
                 </li>
 
-                <li onClick={handleNav} className={` ${styles.navItems} `}>
+                {/* <li onClick={handleNav} className={` ${styles.navItems} `}>
                   {' '}
                   <Link href='#Testimonials'> Testimonials </Link>
-                </li>
+                </li> */}
                 <li onClick={handleNav} className={` ${styles.navItems} `}>
                   {' '}
                   <Link href='/about'> About us </Link>

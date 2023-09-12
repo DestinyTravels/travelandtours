@@ -14,7 +14,7 @@ const Outfit = localFont({
   ],
 });
 export const metadata = {
-  title: 'Destiny Travels and Tours',
+  title: 'Destiny E Travels and Tours',
   description:
     'Expert Visa Solutions offers comprehensive assistance with work visas, study visas, permanent residency, citizenship, business visas, and tourist visas. We also provide convenient reservations for flights, hotels, and apartments worldwide.',
   keywords:
