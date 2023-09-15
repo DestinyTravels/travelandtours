@@ -34,10 +34,21 @@ function Footer() {
             </p>{' '}
           </div>
         </section>
-        <section className='d-flex flex-row col-12 col-md-4 justify-content-between'>
-          <FaFacebook size={30} color='var(--secColor)' />{' '}
-          <FaTwitter size={30} color='var(--secColor)' />{' '}
-          <FaInstagram size={30} color='var(--secColor)' />
+        <section className='d-flex flex-row col-12 col-md-2 justify-content-between'>
+          <a
+            href='https://www.facebook.com/profile.php?id=61551005468193&mibextid=LQQJ4d'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaFacebook size={30} color='var(--secColor)' />{' '}
+          </a>
+          <a
+            href='https://instagram.com/destiny_e_travel?igshid=OGQ5ZDc2ODk2ZA=='
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaInstagram size={30} color='var(--secColor)' />
+          </a>
         </section>
       </main>
     </div>
