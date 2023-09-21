@@ -1,0 +1,23 @@
+.workVisas {
+  .workHero {
+    padding: 7em 1em;
+    height: 90vh;
+    background: var(--mainColor)
+      url('../../public/assets/destinytravelpermanent.webp') top center
+      no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    // The background-attachment fixed is zooming in on the background image on iphones, this is a fix.
+    text-align: center;
+    color: var(--white);
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+      background-attachment: scroll;
+    }
+  }
+}
