@@ -13,14 +13,14 @@ function Reviews() {
       name: 'Fakunle',
       job: 'Optical Doctor ',
       comment:
-        '“Best travel agency in Nigeria. Trusted and reliable. I got my canada study visa within 48hrs after payment.” ',
+        '“Best travel agency in Nigeria. Trusted and reliable. I got my canada study visa seamlessly after payment.” ',
     },
     {
       id: 2,
       name: 'Chinedu',
       job: 'Software enginner',
       comment:
-        '“Nice review, I really enjoy and appreciate the service. Fast and reliable, tested and trust. Leben travel and tour for real.” ',
+        '“Nice review, I really enjoy and appreciate the service. Fast and reliable, tested and trust. Destiny E Travel and Tours for real.” ',
     },
     {
       id: 3,
@@ -41,7 +41,7 @@ function Reviews() {
       name: 'Buhari',
       job: 'Fire fighter',
       comment:
-        '“Most reliable travel agency in Nigeria. Trusted and honest. I got my shengen visa within 48hrs after payment.”',
+        '“Most reliable travel agency in Nigeria. Trusted and honest. I got my shengen visa seamlessly after payment.”',
     },
   ];
   const settings = {
